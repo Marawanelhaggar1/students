@@ -38,6 +38,8 @@ const uniqueNames = () => {
   });
   const sets = new Set(names);
   console.log(sets);
+  const unique = [...sets];
+  console.log(unique);
 };
 
 uniqueNames();
